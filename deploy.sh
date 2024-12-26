@@ -32,7 +32,7 @@ sudo cp -r $BUILD_DIR/* /var/www/Frontend-main-cc/build/ || { echo "Failed to co
 
 # Step 6: Ensure the correct permissions for the Nginx user
 echo "Setting permissions for Nginx..."
-sudo chown -R www-data:www-data /var/www/Frontend-cc-main/build || { echo "Failed to set permissions."; exit 1; }
+sudo chown -R www-data:www-data /var/www/Frontend-main-cc/build || { echo "Failed to set permissions."; exit 1; }
 
 # Step 7: Reload Nginx to serve the new build
 echo "Reloading Nginx..."
