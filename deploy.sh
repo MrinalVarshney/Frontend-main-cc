@@ -1,8 +1,5 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-# Define variables
-=======
 # Define all path variables
 REPO_DIR="/var/www/Frontend-main-cc/mrinal-live"  
 BUILD_DIR="$REPO_DIR/build"           
