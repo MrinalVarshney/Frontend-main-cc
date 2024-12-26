@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define all path variables
-REPO_DIR="/var/www/Frontend-cc-main/mrinal.live"  # Path to the mrinal.live project
+REPO_DIR="/var/www/Frontend-cc-main/mrinal-live"  # Path to the mrinal.live project
 BUILD_DIR="$REPO_DIR/build"                       # Path to the build folder inside the project
 GIT_REPO_URL="https://github.com/MrinalVarshney/Frontend-main-cc"  # GitHub repository URL
 WEBHOOK_LISTENER_DIR="/var/www/Frontend-cc-main/webHook-Listener"  # Path to the webhook listener
