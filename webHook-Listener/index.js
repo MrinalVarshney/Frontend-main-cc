@@ -12,7 +12,7 @@ const port = 3000;
 
 // Replace this with your secret key for security
 const SECRET = process.env.WEBHOOK_SECRET;
-console.log(SECRET);
+// console.log(SECRET);
 
 // Middleware to parse incoming JSON data
 app.use(bodyParser.json());
